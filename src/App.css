@@ -1,8 +1,10 @@
+/* Main app container */
 .App {
   text-align: center;
   padding: 20px;
 }
 
+/* Container for movie cards */
 .movie-list {
   display: flex;
   flex-wrap: wrap;
@@ -10,6 +12,7 @@
   justify-content: center;
 }
 
+/* Individual movie card styling */
 .movie-card {
   width: 200px;
   border: 1px solid #ddd;
